@@ -11,7 +11,7 @@ type Todo = {
 	checked: boolean
 }
 
-interface TodosProps {
+export interface TodosProps {
 	not: Todo[]
 	done: Todo[]
 	all: Todo[]
